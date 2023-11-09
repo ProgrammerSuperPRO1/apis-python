@@ -1,20 +1,3 @@
-'''
-
-1 - OBJETIVO - api para permitir acessar, excluir , criar e editar livros
-
-2 - URL - localhost
-
-3 - ENDPOINTS
-
-- localhost/livros/ id (GET)
-- localhost/livros/ id (POST)
-- localhost/livros/ id (PUT)
-- localhost/livros/ id (DELETE)
-
-4 - QUAIS RECURSOS - LIVROS
-
-'''
-
 from flask import Flask,jsonify,request
 
 app = Flask(__name__)
